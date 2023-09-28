@@ -10,7 +10,7 @@ const io = new Server(server, {
 
     cors: {
         
-        origin: "http://localhost:3000",
+        origin: "https://gi-chat-apps.vercel.app/",
         methods: ["GET", "POST"],
 
     },
