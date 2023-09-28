@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import { useState } from 'react';
 import Chat from './Chat';
 
-const socket = io.connect("https://gi-chat-server.vercel.app/");
+const socket = io.connect("https://gi-chat-server.vercel.app");
 
 
 function App() {
